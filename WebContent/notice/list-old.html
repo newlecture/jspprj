@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+</head>
+<!-- 
+    // 파일명/디렉토리 정하기(기준이 없다? 기준을 모른다?)->콘텐츠 선별->종류별 블록감싸기->아웃라인 잡기->아웃라인 영역잡기 
+    ->플랫폼 API와 태그 그리고 시멘틱 태그->
+-->
+<body>
+    <h1>뉴렉처 온라인</h1>
+
+    <header>   
+        <h2>머릿말</h2>
+
+        <div>
+            <h3>메인메뉴</h3>
+            <ul>
+                <li>학습가이드</li>
+                <li>강좌선택</li>
+                <li>AnswerIs</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>강좌선택 폼</h3>    
+            <form>
+                <label>과정검색</label>
+                <input type="text" >
+                <input type="submit" value="검색" >
+            </form>
+        </div>
+
+        <div>
+            <h3>회원메뉴</h3>
+            <ul>
+                <li>HOME</li>
+                <li>로그인</li>
+                <li>회원가입</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>자주사용하는 메뉴</h3>
+            <ul>
+                <li>마이페이지</li>
+                <li>고객센터</li>
+            </ul>   
+        </div>
+    </header>
+
+    <div>
+        <h2>고객센터</h2>
+
+        <div>
+            <h3>고객센터메뉴</h3>    
+            <ul>
+                <li>공지사항</li>
+                <li>자주하는 질문</li>
+                <li>수강문의</li>
+                <li>이벤트</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>협력업체</h3>    
+            <ul>
+                <li>노트펍스</li>
+                <li>나무랩연구소</li>
+                <li>한빛미디어</li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <h2>공지사항</h2>
+
+        <div>
+            <h3>경로</h3>
+            <ol>
+                <li>home</li>
+                <li>고객센터</li>
+                <li>공지사항</li>
+            </ol>
+        </div>
+        
+        <div>
+            <h3>공지사항 목록</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>번호</td>
+                        <td>제목</td>
+                        <td>작성자</td>
+                        <td>작성일</td>
+                        <td>조회수</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>자바 백엔드 개발자들을 위한 새로운 강의를 녹음 중에 있습니다.</td>
+                        <td>newlec</td>
+                        <td>2019-02-18</td>
+                        <td>255</td>		
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>유투브에 jQuery와 Angular 프레임워크 1강이 등록되었습니다.</td>
+                        <td>newlec</td>
+                        <td>2019-02-18</td>
+                        <td>177</td>		
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>앞으로 모든 강의를 무료로 새로 시작합니다.</td>
+                        <td>newlec</td>
+                        <td>2018-11-18</td>
+                        <td>767</td>		
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div>
+            <h3>페이지 정보</h3>
+            <div>
+                1 / 1 pages
+            </div>
+        </div>
+
+        <div>
+            <h3>페이저</h3>
+            <div>
+                <div>이전</div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <div>다음</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h2>회사정보</h2>
+
+        <div>
+            <h3>소유권자 정보</h3>
+            <dl>
+                <dt>주소:</dt>
+                <dd>서울특별시 마포구 토정로35길 11, 인우빌딩 5층 266호</dd>
+                <dt>관리자메일:</dt>
+                <dd>admin@newlecture.com</dd>
+                <dt>사업자 등록번호:</dt>
+                <dd>132-18-46763</dd>
+                <dt>통신 판매업:</dt>
+                <dd>신고제 2013-서울강동-0969 호</dd>
+                <dt>상호:</dt>
+                <dd>뉴렉처</dd>
+                <dt>대표:</dt>
+                <dd>박용우</dd>
+                <dt>전화번호:</dt>
+                <dd>070-4206-4084</dd>
+            </dl>
+        </div>
+        
+        <div>
+            <h3>저작권 정보</h3>
+            <div>
+                Copyright ⓒ newlecture.com 2012-2014 All Right Reserved. Contact admin@newlecture.com for more information
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
