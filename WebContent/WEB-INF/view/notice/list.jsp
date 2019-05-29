@@ -21,6 +21,8 @@
     <style>
     	#footer{
     		width:100px;
+    		
+    		
     	}
     </style>
 </head>
